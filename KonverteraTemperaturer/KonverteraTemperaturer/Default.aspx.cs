@@ -26,6 +26,8 @@ namespace KonverteraTemperaturer
                 List<int> degreesC = new List<int>();
                 List<int> degreesF = new List<int>();
 
+                ResultTable.Visible = true;
+
                 TableRow row = new TableRow();
 
                 for (int i = startTemp; i < endTemp; i += stepTemp)
@@ -54,8 +56,8 @@ namespace KonverteraTemperaturer
                     TableCell cell1 = new TableCell();
                     TableCell cell2 = new TableCell();
 
-                    cell1.Text = "C";
-                    cell2.Text = "F";
+                    cell1.Text = "°C";
+                    cell2.Text = "°F";
 
                     row.Cells.Add(cell1);
                     row.Cells.Add(cell2);
@@ -74,8 +76,8 @@ namespace KonverteraTemperaturer
                     TableCell cell1 = new TableCell();
                     TableCell cell2 = new TableCell();
 
-                    cell1.Text = "F";
-                    cell2.Text = "C";
+                    cell1.Text = "°F";
+                    cell2.Text = "°C";
 
                     row.Cells.Add(cell1);
                     row.Cells.Add(cell2);

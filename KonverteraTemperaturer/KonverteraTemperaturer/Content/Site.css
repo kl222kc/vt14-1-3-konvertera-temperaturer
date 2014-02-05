@@ -1,3 +1,47 @@
 ﻿.error {
     color: red;
 }
+
+input {
+    width: 200px;
+}
+
+.chkbox input {
+    float: left;
+    width: auto;
+}
+
+.chkbox label {
+    display: block;
+}
+
+form p {
+    margin: 2px;
+}
+
+form {
+    width: 350px;
+    float: left;
+    margin-right: 1+px;
+}
+
+#ResultTable {
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+    border-collapse:collapse;
+    border: 1px solid #c0c0c0;
+}
+
+#ResultTable td {
+    width: 100px;
+}
+
+#ResultTable tr:nth-child(odd) {
+    background-color: #c0c0c0;
+}
+
+#ResultTable tr:first-child {
+    background-color: black;
+    color: white;
+}
