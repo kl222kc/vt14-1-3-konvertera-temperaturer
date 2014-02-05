@@ -30,6 +30,9 @@
             <asp:RangeValidator ID="RangeValidator3" runat="server" ControlToValidate="IncreaseTempTextBox" ErrorMessage="Temperatursteget måste vara ett heltal inom 1-100." MaximumValue="100" MinimumValue="1" Type="Integer" Display="Dynamic" Text="*"></asp:RangeValidator>
         </div>
 
+        <asp:RadioButton ID="ConvertCelRadio" runat="server" GroupName="ConvertType" Checked="true" />
+        <asp:RadioButton ID="ConvertFarRadio" runat="server" GroupName="ConvertType" />
+
         <asp:Button ID="TempButton" runat="server" Text="Button" OnClick="TempButton_Click" style="height: 26px" />
     </div>
     </form>

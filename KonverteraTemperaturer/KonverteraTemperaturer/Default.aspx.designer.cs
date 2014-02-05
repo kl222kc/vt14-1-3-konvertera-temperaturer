@@ -112,6 +112,24 @@ namespace KonverteraTemperaturer {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator3;
         
         /// <summary>
+        /// ConvertCelRadio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton ConvertCelRadio;
+        
+        /// <summary>
+        /// ConvertFarRadio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton ConvertFarRadio;
+        
+        /// <summary>
         /// TempButton control.
         /// </summary>
         /// <remarks>
