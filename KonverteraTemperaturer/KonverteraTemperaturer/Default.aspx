@@ -34,7 +34,7 @@
     </div>
     </form>
 
-    <asp:Label ID="Result" runat="server" Text="Label"></asp:Label>
+    <asp:Table ID="ResultTable" runat="server"></asp:Table>
 
 </body>
 </html>
