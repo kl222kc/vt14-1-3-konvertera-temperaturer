@@ -30,8 +30,11 @@
             <asp:RangeValidator ID="RangeValidator3" runat="server" ControlToValidate="IncreaseTempTextBox" ErrorMessage="Temperatursteget måste vara ett heltal inom 1-100." MaximumValue="100" MinimumValue="1" Type="Integer" Display="Dynamic" Text="*"></asp:RangeValidator>
         </div>
 
-        <asp:Button ID="TempButton" runat="server" Text="Button" />
+        <asp:Button ID="TempButton" runat="server" Text="Button" OnClick="TempButton_Click" style="height: 26px" />
     </div>
     </form>
+
+    <asp:Label ID="Result" runat="server" Text="Label"></asp:Label>
+
 </body>
 </html>
