@@ -9,20 +9,12 @@ namespace KonverteraTemperaturer.Model
     {
         public static int CelsiusToFahrenheit(int degreesC)
         {
-            int degreesF;
-
-            degreesF = (int)Math.Round(degreesC * 1.8 + 32);
-
-            return degreesF;
+            return (int)Math.Round(degreesC * 1.8 + 32);
         }
 
         public static int FahrenheitToCelsius(int degreesF)
         {
-            int degreesC;
-
-            degreesC = (int)Math.Round((degreesF - 32) * (5.0 / 9.0));
-
-            return degreesC;
+            return (int)Math.Round((degreesF - 32) * (5.0 / 9.0));
         }
     }
 }
