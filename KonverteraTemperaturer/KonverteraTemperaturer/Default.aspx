@@ -49,7 +49,12 @@
     </div>
     </form>
 
-    <asp:Table ID="ResultTable" runat="server" Visible="false"></asp:Table>
+    <asp:Table ID="ResultTable" runat="server" Visible="false">
+        <asp:TableHeaderRow>
+            <asp:TableHeaderCell ID="First">°C</asp:TableHeaderCell>
+            <asp:TableHeaderCell ID="Second">°F</asp:TableHeaderCell>
+        </asp:TableHeaderRow>
+    </asp:Table>
 
 </body>
 </html>
